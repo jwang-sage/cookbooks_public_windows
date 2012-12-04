@@ -127,19 +127,17 @@
       "calculated": false,
       "type": "string"
     },
-    "utilities/MYNAME": {
-      "display_name": "Please enter your name",
-      "description": "This is your name",
+  "utilities/MYNAME": {
+  "required": "required",
+  "calculated": false,
+  "choice": [
+      ],
+  "type": "string",
       "recipes": [
-        "utilities::cheftutorial"
+  "utilities::cheftutorial"
       ],
-      "required": "required",
-      "choice": [
-
-      ],
-      "calculated": false,
-      "type": "string"
-    }
+  "display_name": "Please enter your name",
+  "description": "This is your name"
   },
   "groupings": {
   },
